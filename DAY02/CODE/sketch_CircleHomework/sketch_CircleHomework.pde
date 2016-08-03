@@ -17,7 +17,7 @@ void draw() {
   //what do we want the circle to do?
   //follow the mouse
   }  else  {
-    fill(0, 250, 250);
+    fill(0, 250, 250); //test #2
   }
   ellipse(mouseX, mouseY, 50, 50); //WILL THIS WORK????
   
