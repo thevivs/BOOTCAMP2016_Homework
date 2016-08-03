@@ -1,0 +1,49 @@
+
+/*for my header*/
+.my-name {
+	color: #424242;
+	font-family: "Amatic SC";
+	position: relative;
+	text-align: center;
+
+}
+
+#vivian-t-lee {
+	font-size: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+
+#contact-info{
+
+	font-family: "Open Sans";
+	font-weight: 600;
+	margin-top: 0px;
+	padding-top: 0px;
+
+}
+
+/*for the navigation bar*/
+
+h2 {
+	font-family: "Amatic SC";
+	font-size:30px;
+	margin-left: 30px;
+}
+
+/*actual films*/
+#films {
+	float: right;
+	position: top;
+	margin-right: 30px;
+}
+
+/*my footer*/
+footer {
+	clear: both;
+	font-family: "Open Sans Condensed";
+	text-align: center;
+	/*position: bottom;*/
+	margin-top: 300px;
+}
