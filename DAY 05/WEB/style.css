@@ -1,0 +1,47 @@
+h1{
+	font-family: 'Amatic SC';
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+#my-contact-info{
+	font-family: 'Open Sans';
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+/*so in this case, we made them into separate divs but in the same hierarchy in order to affect them.
+hover over  div-a-1 to affect div-a-2*/
+
+.changing-font-protperties{
+	font-size: 30px;
+/*	position: fixed;
+	float: left;*/
+}
+
+/*.changing-content-properties{
+	float: left;
+}*/
+
+/*   */.films-the-button{
+			font-family: 'Amatic SC';
+			font-size:30px;
+		}
+
+		.films-the-body{
+			opacity:0;
+			margin: 20px;  /*i can change the size of this box so that if it hovers we can have 
+			the bottom buttons move up and down accordingly*/
+			float: right;
+
+			transition: opacity 1s linear .5s;
+		}
+
+		.films-the-button:hover ~ .films-the-body{
+			opacity: 1;
+/*   */}
+
+
+

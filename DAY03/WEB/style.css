@@ -19,29 +19,132 @@
 
 	font-family: "Open Sans";
 	font-weight: 600;
+	font-size:20px;
 	margin-top: 0px;
 	padding-top: 0px;
 
 }
 
-/*for the navigation bar*/
 
-h2 {
+/*my body is ready*/
+body{
+	font-size: 50px;
+
+}
+
+/*navbar*/
+#left-buttons{
 	font-family: "Amatic SC";
-	font-size:30px;
-	margin-left: 30px;
+}
+
+/*for the "films" button*/
+#films-button{
+	width: 122px;
+	height: 50px;
+	color: black;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	background-color: gray;
+	transition: color 1s linear .5;
+}
+
+#films-button:hover {
+	color:white;
+
+}
+
+/*for the "digital" buttons*/
+#digital{
+	width: 130px;
+	height: 50px;
+	color: black;
+	padding-bottom: 10px;
+	padding-left: 32px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	background-color: gray;
+	transition: color 1s linear .5s,
+				width 2s, 
+				transform 5s linear .2s;
+
+}
+
+#digital:hover {
+	color:white;
+	transform: scale(1, 2);
+
+}
+
+/*for paintings button*/
+#paintings{
+	width: 150px;
+	height: 50px;
+	color: black;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	margin-left: 10px;
+	background-color: gray;
+	transition: color 1s linear .5;
+}
+
+#paintings:hover {
+	color:white;
+
 }
 
 /*actual films*/
-#films {
+#actual-films {
 	float: right;
-	position: top;
+	position: relative;
 	margin-right: 30px;
 }
+
+/*this is my animation element*/
+#animation-thingie{
+	width:200px;
+	height: 100px;
+	font-size: 20px;
+	margin-top: 300px;
+
+	animation-name: thisisvivian;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes thisisvivian {
+	0% {
+		font-size: 20px;
+		width: 300px;
+		height: 200px;
+
+	}
+
+	25%{
+		font-size: 30px;
+		width:400px;
+		height: 300px;
+	}
+
+	75%{
+		font-size: 40px;
+		width: 300px;
+		height: 200px;
+	}
+
+	100% {
+		font-size: 30;
+		width: 200px;
+		height: 100px;
+	}
+}
+
 
 /*my footer*/
 footer {
 	clear: both;
+	font-size: 20px;
 	font-family: "Open Sans Condensed";
 	text-align: center;
 	/*position: bottom;*/
