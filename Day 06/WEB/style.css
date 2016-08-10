@@ -1,0 +1,87 @@
+body{
+	position: relative;
+	text-align: center;
+}
+
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 100px;
+	margin: 0px;
+	size: fixed;
+	height: 130px;
+/*	position: fixed;*/ 
+/*  when I tried to fixate the pulsing title so that the rest of the screen doesn't move with it*/
+/*right now, it is moving the whole screen with it as it is animating. And I don't want that*/
+
+	animation-name: pulsing-header;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes pulsing-header{
+	0%{
+		font-size: 100px;
+	}
+
+	25%{
+		font-size: 150px;
+	}
+
+	75%{
+		font-size: 125px;
+	}
+
+	100%{
+		font-size: 100px;
+	}
+}
+
+nav ul{
+	text-align: center;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	display:block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	list-style: none;
+	/*float: left;*/
+}
+
+li{
+	display:inline-block;
+	margin: 30px;
+	margin-top: 0px;
+}
+
+/*.my-navigation-bar{
+	margin: 0;
+}*/
+
+#films{
+	opacity:1;
+	margin: 10px;
+	transition: opacity 1s linear .2s;
+	size: relative;
+}
+
+#films:hover {
+	opacity: 0.2;
+}
+
+.the-footer{
+	margin-top:10px;
+}
+
+h6{
+	font-family: 'Open Sans';
+	size: 5px;
+	margin:0px;
+}
+
+
+
+
